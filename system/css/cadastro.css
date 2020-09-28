@@ -1,0 +1,67 @@
+#areaCa {
+    margin-top: 40px;
+    border: 1px solid white;
+    background-color: rgb(232, 241, 235);
+    color: black;
+    padding-bottom: 50px;
+    border-radius: 20px;
+    height: 750px;
+}
+
+#titulo {
+    text-align: center;
+}
+
+#nome {
+    width: 600px;
+    height: 18px;
+    margin-bottom: 35px;
+}
+
+#campos {
+    margin: 25px;
+}
+
+#endereco {
+    width: 800px;
+    height: 18px;
+    margin-bottom: 35px;
+}
+
+#setor {
+    height: 18px;
+    margin-bottom: 35px;
+    width: 300px;
+    margin-right: 10px;
+}
+
+#cpf {
+    margin-right: 15px;
+}
+
+#telefixo {
+    margin-right: 15px;
+}
+
+#salvar {
+    display: block;
+    float: right;
+    margin-top: 250px;
+    margin-right: 35px;
+    font-size: 18px;
+}
+#cancelar{
+    display: block;
+    float: right;
+    margin-top: 250px;
+    margin-right: 35px;
+    font-size: 18px;
+}
+#home{
+    display: block;
+    float: right;
+    margin-top: 250px;
+    margin-right: 35px;
+    font-size: 18px;
+    
+}

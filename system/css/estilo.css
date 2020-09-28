@@ -29,3 +29,16 @@ a:hover {
     background-color:darkgoldenrod;
     color: white;
 }
+
+#logos{
+    display: block;
+    background-color: blanchedalmond;
+    width: 600px;
+    height: 780px;
+    padding: 15px;
+    opacity: 0.6;
+}
+#pax{
+    margin-right: 120px;
+    margin-top: 60px;
+}
