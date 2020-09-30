@@ -7,7 +7,7 @@ body{
     padding: 10px;
     height: 20px;
     background-color: #FEF8C5;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 30px;
     margin-right: 30px;
     box-shadow: 0px 0px 10px black;
@@ -33,12 +33,22 @@ a:hover {
 #logos{
     display: block;
     background-color: blanchedalmond;
-    width: 600px;
-    height: 780px;
+    width: auto ;
+    height: auto;
     padding: 15px;
     opacity: 0.6;
+    margin-top: -10px;
+    margin-left: -5px;
+    margin-right: -5px;
 }
 #pax{
     margin-right: 120px;
-    margin-top: 60px;
+    margin-top: 34px;
+}
+#odonto{
+    margin-top: 10px;
+}
+#cepax{
+    margin-top: 20px;
+    margin-bottom: 69px;
 }

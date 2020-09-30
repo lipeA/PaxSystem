@@ -8,6 +8,11 @@
     height: 750px;
 }
 
+#divisao{
+    border: 1px solid black;
+    margin: 15px 20px;
+}
+
 #titulo {
     text-align: center;
 }
@@ -50,18 +55,19 @@
     margin-right: 35px;
     font-size: 18px;
 }
-#cancelar{
+
+#cancelar {
     display: block;
     float: right;
     margin-top: 250px;
     margin-right: 35px;
     font-size: 18px;
 }
-#home{
+
+#home {
     display: block;
     float: right;
     margin-top: 250px;
     margin-right: 35px;
     font-size: 18px;
-    
 }
