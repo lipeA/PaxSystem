@@ -5,7 +5,7 @@
     color: black;
     padding-bottom: 50px;
     border-radius: 20px;
-    height: 750px;
+    height: 550px;
 }
 
 #divisao{
@@ -60,7 +60,6 @@
     display: block;
     float: right;
     margin-top: 250px;
-    margin-right: 35px;
     font-size: 18px;
 }
 

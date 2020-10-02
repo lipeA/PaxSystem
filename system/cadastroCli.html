@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cadastro</title>
-    <link rel="stylesheet" href="css/cadastro.css">
+    <title>cadastro Cliente</title>
+    <link rel="stylesheet" href="css/cadastroCli.css">
 </head>
 
-<body background="imagens/cr.jpg">
+<body background="imagens/beach-5571533_1280.jpg">
     <!--Area do cadastro-->
     <div id="areaCa">
         <h1 id="titulo">Cadrastro</h1>
@@ -16,44 +16,52 @@
             <!--Campos a serem preenchidos-->
             <div id="campos">
                 <!--campo NOME -->
-                <label>Nome Completo:</label>
+                <label for="nome">Nome Completo:</label>
                 <input type="text" id="nome"><br>
                 <!--Campo Endereço-->
-                <label>Endereço:</label>
+                <label for="endereco">Endereço:</label>
                 <input type="text" id="endereco">&nbsp;&nbsp;
-                <label>Nº</label>
-                <input type="number"><br>
+                <label for="numero">Nº</label>
+                <input type="number" id="numero"><br>
                 <!--campo setor-->
-                <label> Setor:</label>
+                <label for="setor"> Setor:</label>
                 <input type="text" id="setor">
                 <!--campo CPF-->
-                <label>CPF:</label>
+                <label for="cpf">CPF:</label>
                 <input type="number" id="cpf">
                 <!--campo RG-->
-                <label> RG:</label>
+                <label for="rg"> RG:</label>
                 <input type="number" id="rg"> &nbsp;&nbsp;
-               <!-- campo de data de nascimento-->
-               <label>Data de Nascimento:</label>
-               <input type="date" id="datanas">
+                <!-- campo de data de nascimento-->
+                <label for="datanas">Data de Nascimento:</label>
+                <input type="date" id="datanas"><br>
 
                 <!--campo Telefones-->
-                <label> Telefone(fixo)</label>
+                <label for="telefixo"> Telefone(fixo)</label>
                 <input type="number" id="telefixo">
-                <label> Telefone(Celular)</label>
+
+                <label for="telecelular"> Telefone(Celular)</label>
                 <input type="number" id="telecelular">
-                 <!--campo de sexo-->
-                 <label>&nbsp;&nbsp;&nbsp;Sexo:&nbsp;</label>
-                 <label>Masculino</label>
-                 <input type="checkbox" id="masc">&nbsp;&nbsp;
-                 <label> Feminino</label>
-                 <input type="checkbox" id="fem"><br>
+
+                <!--campo de sexo-->
+                <label>&nbsp;&nbsp;&nbsp;Sexo:&nbsp;</label>
+                <label for="sexo">Masculino</label>
+                <input type="checkbox" name="sexo" id="masc" checked>&nbsp;&nbsp;
+                <label for="sexo"> Feminino</label>
+                <input type="checkbox" name="sexo" id="fem"><br>
+
+                <!--area dos botoes (SALVAR, CANCELAR E VOLTAR)  -->
+                <button type="reset" id="cancelar"> <a href="index.html"
+                        style="text-decoration: none;color: black;">Cancelar</a> </button>
+                <button type="submit" id="salvar">Salvar</button>
+                <button type="submit" id="home"> <a href="CadQual.html"
+                        style="text-decoration: none; color: black;">Voltar</a>
             </div>
+
+            </button>
         </div>
-        <button type="reset" id="cancelar"> <a href="index.html"
-                style="text-decoration: none;color: black;">Cancelar</a> </button>
-        <button type="submit" id="salvar">Salvar</button>
-        <button type="submit" id="home"> <a href="CadQual.html" style="text-decoration: none; color: black;">Voltar</a>
-        </button>
+
+        
 
 
     </div>
