@@ -1,5 +1,9 @@
 <?php
 
-$pdo = new PDO("mysql:host=127.0.0.0;dbname=banco_system", "root", "")
+$host_name = "127.0.0.0";
+$username = "root";
+$pass="";
+
+
 
 ?>
